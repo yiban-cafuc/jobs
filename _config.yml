@@ -5,7 +5,7 @@ keywords: ''
 url: 'https://yiban-cafuc.github.io/jobs' # your host
 
 defaults:
-  relative_url: https://yiban-cafuc.github.io/jobs
+  permalink: /jobs/:year/:month/:title
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
