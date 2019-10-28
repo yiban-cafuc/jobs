@@ -10,10 +10,10 @@ defaults:
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-#  关于易班: '/about.html'
+  返回主站: '/'
+  标签: '/jobs/tags.html'
+  时间线: '/jobs/timeline.html'
+  关于我们: '/jobs/about.html'
 
 # 博主
 author: true
