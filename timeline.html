@@ -12,7 +12,7 @@ description:
     {% include title.html %}
     <ul class="ex-list">
         <li  class="fadeInUp animated" id="pc">
-          {% assign docs = site.posts | sort: 'weight', "first" %}
+          {% assign docs = site.posts | sort: 'weight', "last" %}
           {% for post in docs %}
             <div class="left-time">
               <a href="javascript:;" onmouseover="this.children[0].style.borderLeft='8px solid rgb(255,90,90)'; this.children[1].style.backgroundColor='rgb(255,90,90)';this.children[1].children[0].children[0].style.color='white';" onmouseout="this.children[0].style.borderLeft='8px solid #f4f4f4'; this.children[1].style.backgroundColor='#f4f4f4';this.children[1].children[0].children[0].style.color='#555';">
@@ -26,8 +26,8 @@ description:
                 <span class="lefttime-san"></span>
                 <span class="lefttime-main">
                   <sapn class="timemain">
-                    {{ post.title }} |
-                    {{ post.time }} |
+                    {{ post.title }}   
+                    {{ post.time }} 
                     {{ post.weight }}
                   </sapn>
                 </span>
